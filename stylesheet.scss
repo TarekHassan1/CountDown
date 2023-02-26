@@ -1,0 +1,39 @@
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+color: white;   
+min-height: 100vh;
+ background-image: url(beautiful-christmas-eve-concept-with-copy-space_23-2148703379.avif);
+
+    background-size: cover;
+}
+
+.countdown-container{
+    h1{
+        margin-bottom: 30px;
+        margin-right: 55px;
+    }
+    
+max-width: 100%;
+text-align: center;
+margin-bottom: 200px;
+> div{
+    margin-right: 40px;
+    max-width: calc(100% / 4);
+    display: inline-block;
+    line-height: 2;
+    font-size: 17px;
+    
+    }
+}
